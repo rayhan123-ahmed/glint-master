@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
  max-width: 100%;
 }
 html {
@@ -10,7 +10,7 @@ scroll-behavior: smooth;
 
 }
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "montserrat-medium", sans-serif;
   line-height: 1;
   font-weight: 400;
 }
@@ -19,7 +19,7 @@ body {
   color: #ffffff;
 }
 .container {
-  max-width: 130rem;
+  max-width: 170rem;
   padding: 0 3rem;
   margin: 0 auto;
 }
