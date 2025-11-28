@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
- max-width: 100%;
+  max-width: 100%;
 }
 html {
   font-size: 62.5%;
-scroll-behavior: smooth;
-
+  scroll-behavior: smooth;
 }
 body {
   font-family: "montserrat-medium", sans-serif;

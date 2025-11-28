@@ -222,11 +222,11 @@
 }
 #about {
   background-color: #39b54a;
-  padding-top: 16rem;
-  padding-bottom: 7rem;
+  padding-top: 15rem;
+  padding-bottom: 9rem;
   position: relative;
 }
-.about-heading {
+.section-heading {
   position: relative;
   text-align: center;
   max-width: 96rem;
@@ -234,7 +234,7 @@
   margin-bottom: 5rem;
   padding-bottom: 5rem;
 }
-.about-heading::before {
+.section-heading::before {
   position: absolute;
   content: "";
   width: 60rem;
@@ -269,4 +269,69 @@
   font-size: 2.4rem;
   line-height: 3.4rem;
   margin-bottom: 3rem;
+}
+.about-status {
+  text-align: center;
+  white-space: normal;
+  padding-top: 3rem;
+}
+.block-1 {
+  display: inline-block;
+  width: 20%;
+  margin: 3rem 0;
+  padding: 0 1rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+.block-1:last-child {
+  border-right: none;
+}
+.status-count {
+  color: #fff;
+  font-size: 9.4rem;
+  line-height: 8rem;
+  font-weight: 600;
+}
+.block-1 h5 {
+  margin: 2rem 0;
+  font-size: 1.8rem;
+}
+/* *********** */
+/* SEVICE SECTION */
+/* *********** */
+#service {
+  padding-top: 16rem;
+  padding-bottom: 13rem;
+  color: #757575;
+  background-color: #fff;
+}
+.service .s-h3 {
+  color: #39b54a;
+}
+.service .s-h1 {
+  color: #000000;
+  font-size: 5.4rem;
+}
+
+.service-list .block-1 {
+  width: 45%;
+  padding: 0 2rem;
+}
+
+.service-icon {
+  float: left;
+  color: #39b54a;
+  font-size: 4.8rem;
+}
+.service-text {
+  margin-left: 7.2rem;
+}
+.service-text h3 {
+  font-size: 2.6rem;
+  color: #000000;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.service-text p {
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
