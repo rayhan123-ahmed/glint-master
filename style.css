@@ -18,7 +18,7 @@
   display: block;
   width: 8rem;
 }
-.header-toggle {
+.header-menu-toggle {
   position: fixed;
   top: 5rem;
   right: 6rem;
@@ -36,10 +36,11 @@
   position: absolute;
   top: 0;
   left: -7rem;
-  width: 5rem;
+
   padding-left: 1rem;
   line-height: 2rem;
   margin-top: 0.5rem;
+  width: 100%;
 }
 .header-menu-icon {
   display: block;
@@ -47,6 +48,7 @@
   color: #fff;
   font-size: 2.6rem;
 }
+
 /* *********** */
 /* HOME SECTION */
 /* *********** */
@@ -334,4 +336,40 @@
 .service-text p {
   font-size: 1.8rem;
   line-height: 3rem;
+}
+/* *********** */
+/* WORK SECTION */
+/* *********** */
+.work-s {
+  min-height: 80rem;
+  background-color: #ffffff;
+  padding-bottom: 5rem;
+  position: relative;
+}
+.intro {
+  background-color: #000000;
+  padding: 10rem 0 15rem;
+}
+.about-text .w-h3 {
+  color: #39b54a;
+}
+.about-text .w-h1 {
+  font-size: 6rem;
+}
+.work-row {
+  max-width: 110rem;
+  margin-top: -15rem;
+}
+.cll-full {
+  width: 100%;
+  padding: 0 2rem;
+}
+.album {
+  position: relative;
+  height: 182rem;
+}
+
+.album-img {
+  display: inline-block;
+  width: 50%;
 }
