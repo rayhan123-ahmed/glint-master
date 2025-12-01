@@ -435,6 +435,7 @@
 .item-folio:hover .item-folio-text {
   opacity: 1;
   visibility: visible;
+  transform: translate3d(0, 0, 0);
 }
 .item-folio-title {
   color: #ffffff;
@@ -447,4 +448,173 @@
 .item-folio-p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.2rem;
+}
+.item-folio-link {
+  display: block;
+  position: absolute;
+  color: #ffffff;
+  box-shadow: 0 0 0 1px #ffffff;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  top: 3rem;
+  left: 3rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  z-index: 2;
+}
+.item-folio:hover .item-folio-link {
+  opacity: 1;
+  visibility: visible;
+}
+.item-folio-link:hover {
+  color: #000000;
+  background-color: #fff;
+}
+.item-folio-link::before {
+  display: block;
+  content: "";
+  position: absolute;
+  color: #ffffff;
+  height: 3rem;
+  width: 0.1rem;
+  top: -3rem;
+  left: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-link {
+  display: block;
+  position: absolute;
+  top: 37%;
+  left: 33%;
+  font-size: 1.2rem;
+}
+/* *********** */
+/* CLINT SECTION */
+/* *********** */
+.clint-s {
+  padding-top: 16rem;
+  padding-bottom: 16.8rem;
+  background-color: #e6e6e6;
+  color: #757575;
+}
+.about-text .c-h3 {
+  color: #39b54a;
+}
+.about-text .c-h1 {
+  color: #000000;
+  font-size: 5.8rem;
+  line-height: 6rem;
+}
+.clints-outer {
+  margin-top: 3.6rem;
+  text-align: center;
+  position: relative;
+}
+.col-full {
+  padding: 0 2rem;
+}
+.clint-img {
+  height: 100%;
+  float: left;
+  min-height: 0.1rem;
+  opacity: 0.55;
+  padding: 1.5rem 2.8rem;
+  transition: all 0.4s;
+}
+.clint-img:hover {
+  opacity: initial;
+}
+.list-box {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.clints {
+  height: 25rem;
+}
+.dots {
+  display: block;
+  margin-top: 1rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.dots li {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.6rem;
+}
+.dots li button {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: #959595;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.dots li button:hover {
+  background: #39b54a;
+}
+.clint-testomonial {
+  margin: 0 10%;
+}
+.clints-testomonail {
+  padding-top: 5rem;
+  margin-top: 8rem;
+  text-align: center;
+}
+.testomonial-slide p {
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #555555;
+  margin-bottom: 5rem;
+}
+.testomonial-avatar {
+  margin: 0 0 auto 0;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+.testomonial-name {
+  color: #000000;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+.testomonial-post {
+  color: #757575;
+  font-size: 1.5rem;
+}
+.arrow {
+  position: relative;
+}
+.clint-testomonial .side-prev {
+  background-image: url(images/left-arrow.png);
+  left: 3rem;
+}
+.clint-testomonial .side-next {
+  background-image: url(images/right-arrow.png);
+  right: 3rem;
+}
+.side-arrow {
+  position: absolute;
+  top: 9rem;
+  width: 6rem;
+  height: 6rem;
+  background: no-repeat;
+  background-size: 22px 15px;
+  border: none;
+  color: transparent;
+  cursor: pointer;
 }
