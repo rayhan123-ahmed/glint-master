@@ -17,11 +17,7 @@ body {
   background: #ff511a; /* background when text is selected */
   color: #ffffff;
 }
-.container {
-  max-width: 170rem;
-  padding: 0 3rem;
-  margin: 0 auto;
-}
+
 a {
   text-decoration: none;
 }
