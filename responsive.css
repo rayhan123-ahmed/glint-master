@@ -1,0 +1,81 @@
+/* BELOW 1199PX */
+@media only screen and (max-width: 74.9375em) {
+  html {
+    font-size: 60.5%;
+  }
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #home {
+    padding-top: 40rem;
+    height: 77vh !important;
+  }
+  .home-content-main {
+    max-width: 80rem;
+    padding-top: 20rem;
+  }
+  .home-content h3 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .home-content h1 {
+    font-size: 5.5rem;
+    line-height: 7rem;
+  }
+  .home-content-buttons {
+    padding-top: 5rem;
+  }
+  .social-list {
+    top: 40%;
+  }
+  .about-disc {
+    max-width: 90rem;
+  }
+  .cll-f p {
+    font-size: 2.2rem;
+  }
+  .about-status {
+    max-width: 80rem;
+    padding: 2rem 0;
+  }
+  .block-1 {
+    display: inline-block;
+    width: 35%;
+    margin: 3rem 0;
+    padding: 0 3rem;
+  }
+  .about-status :nth-child(2) {
+    border: none;
+  }
+  .section-heading {
+    max-width: 80rem;
+  }
+  .service .s-h1 {
+    color: #000000;
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .service-list {
+    max-width: 110rem;
+  }
+  .about-text .w-h1 {
+    font-size: 5.4rem;
+    line-height: 6rem;
+  }
+  .about-text .c-h1 {
+    color: #000000;
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .clints-outer {
+    max-width: 110rem;
+  }
+  .testomonial-slide p {
+    font-size: 2.8rem;
+  }
+  .contact-form {
+    max-width: 90rem;
+  }
+}
