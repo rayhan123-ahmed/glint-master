@@ -79,3 +79,88 @@
     max-width: 90rem;
   }
 }
+/* BELOW 899PX */
+@media only screen and (max-width: 56.1875em) {
+  .home-content-main {
+    max-width: 65rem;
+    padding-top: 20rem;
+    padding-right: 6rem;
+  }
+  .home-content h1 {
+    font-size: 5.2rem;
+    line-height: 6.4rem;
+  }
+  .service .s-h1 {
+    font-size: 4.6rem;
+    line-height: 4.6rem;
+  }
+  .about-text h3 {
+    font-size: 1.6rem;
+  }
+  .service-list {
+    max-width: 50rem;
+    text-align: center;
+  }
+  .service-list .block-1 {
+    width: 90%;
+    padding: 0 2rem;
+  }
+  .service-icon {
+    float: none;
+    margin-bottom: 2.2rem;
+  }
+  .service-text {
+    margin-left: 0;
+  }
+  .about-text .w-h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .work-row {
+    max-width: 110rem;
+    width: 90%;
+  }
+  .about-text .c-h1 {
+    font-size: 4.5rem;
+  }
+  .section-heading {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+  }
+  .clint-img {
+    padding: 0rem;
+  }
+  .clints {
+    height: 20rem;
+  }
+  .side-arrow {
+    top: 43rem;
+  }
+  .clint-testomonial {
+    margin: 0 5%;
+  }
+  .testomonial-slide p {
+    font-size: 2.4rem;
+    line-height: 4rem;
+  }
+  .about-text .w-h1 {
+    font-size: 4.6rem;
+  }
+  .section-heading {
+    margin-bottom: 5rem;
+  }
+  .contact-primary,
+  .contact-secondery {
+    float: none;
+    width: 100%;
+  }
+  .contact-primary {
+    padding-bottom: 9.4rem;
+  }
+  .contact-secondery::before {
+    display: none;
+  }
+  .contact-form {
+    max-width: 70rem;
+  }
+}
