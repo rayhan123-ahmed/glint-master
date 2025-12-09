@@ -164,3 +164,53 @@
     max-width: 70rem;
   }
 }
+/* BELOW 699PX */
+@media only screen and (max-width: 43.6875em) {
+  .home-content-main {
+    max-width: 50rem;
+    padding-right: 6rem;
+  }
+  .home-content h3 {
+    font-size: 1.6rem;
+  }
+  .home-content h1 {
+    font-size: 4.2rem;
+    line-height: 6rem;
+  }
+  .home-content-buttons .btn {
+    width: 15rem;
+    font-size: 1.4rem;
+  }
+  .about-disc {
+    max-width: 60rem;
+  }
+  .section-heading {
+    max-width: 60rem;
+    margin-bottom: 2rem;
+  }
+  .service .s-h1 {
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+  }
+  .about-text .w-h1 {
+    font-size: 4rem;
+  }
+  .work-row {
+    width: 85%;
+  }
+  .section-heading::before {
+    width: 65rem;
+    left: 15rem;
+  }
+  .footer-main {
+    flex-direction: column;
+    max-width: 60rem;
+  }
+  .coll-footer {
+    margin-bottom: 4.4rem;
+    width: 100%;
+  }
+  .coll-footer:last-child {
+    margin-bottom: 0rem;
+  }
+}
